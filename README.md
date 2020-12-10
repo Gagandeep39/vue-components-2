@@ -7,6 +7,7 @@
     - [Provide](#provide)
     - [Inject](#inject)
   - [Function Injection](#function-injection)
+  - [Consideration](#consideration)
 
 ## Deploymet
 
@@ -17,6 +18,9 @@
 - Parent cild communication is easy
 - However in large application there are multilevel childs
 - Communication becomes difficut in such purposes
+- Suppose we have 4 component with Parent child relationship between A -> B -> C -> D
+  - Communication between A and D will require unecesary code in B and C
+  - To prevent this, w use injection
 
 ## Provide and Inject
 
@@ -93,3 +97,9 @@ export default {
   inject: ['activateTopic'],
 };
 ```
+
+## Consideration
+
+- Always use props, events
+- Use provide, inject only when needed
+- Project, inject makes code difficult to read
