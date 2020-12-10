@@ -13,6 +13,11 @@
 
 <script>
 export default {
+  provide() {
+    return {
+      topics: this.topics,
+    };
+  },
   data() {
     return {
       topics: [
