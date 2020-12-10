@@ -1,24 +1,8 @@
-# vue-components-2
+# Vue Components - Advanced
 
-## Project setup
-```
-yarn install
-```
+- [Vue Components - Advanced](#vue-components---advanced)
+  - [Deploymet](#deploymet)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Deploymet
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Check deploment at https://gagandeep39.github.io/vue-components-2/
